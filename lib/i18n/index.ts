@@ -22,6 +22,11 @@ i18n
   .init({
     resources,
     fallbackLng: 'en',
+    detection: {
+      order: ['localStorage', 'cookie', 'navigator', 'htmlTag'],
+      lookupLocalStorage: 'i18nextLng',
+      caches: ['localStorage'],
+    },
     interpolation: {
       escapeValue: false,
     },

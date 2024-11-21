@@ -1,0 +1,54 @@
+{
+  "title": "Image Downloader",
+  "description": "A simple tool to download multiple images at once",
+  "status": {
+    "error": "Error",
+    "completed": "Completed",
+    "downloading": "Downloading",
+    "pending": "Pending",
+    "success": "Success"
+  },
+  "imageDownloader": {
+    "title": "Image Downloader",
+    "filename": "ZIP File Name (Optional)",
+    "description": "Enter image URLs below to download them in batch",
+    "placeholder": "Enter image URLs (one per line or comma-separated)\nExample:\nhttps://example.com/image1.jpg\nhttps://example.com/image2.png, https://example.com/image3.jpg",
+    "downloadStatus": "Download Status",
+    "noUrls": "No URLs found. Please enter at least one valid image URL",
+    "downloadComplete": "Download completed: {{success}} succeeded, {{failed}} failed"
+  },
+  "footer": {
+    "copyright": " Image Downloader. All rights reserved."
+  },
+  "download": "Download",
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "current": "Current theme: {{theme}}"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": {
+      "title": "Error",
+      "unknown": "An unknown error occurred",
+      "network": "Network error",
+      "invalidUrl": "Invalid URL"
+    },
+    "buttons": {
+      "retry": "Retry",
+      "cancel": "Cancel",
+      "close": "Close",
+      "save": "Save",
+      "reset": "Reset"
+    }
+  }
+}
